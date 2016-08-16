@@ -42,3 +42,10 @@ def PercentOfTotal(aList):
     for element in aList:
         sumOfElements += element
     return aList/sumOfElements #divides every element by the sum
+<<<<<<< HEAD:Functions.py
+=======
+
+
+
+
+>>>>>>> 8953cea4515694a365019ac546ff5f40756f0c91:BensPractice/Functions.py

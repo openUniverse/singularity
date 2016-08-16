@@ -36,9 +36,53 @@
 #         for item in items
 #             print(item)
 
+# index 0 1 2  3
+# list = "snake kobra"
+#
+# def reverse(list):
+#     length = len(list)  #get length of a list
+#     newList = [] # create a new empty list
+#     for element in range(0,length ): # range means create a list from the start number to the en# d number i.e. [0,1,2,..., length]
+#         newList.append( list[(length-1) - element]) # append is add it to a new list
+#     return "".join(newList) #["q","w","e","r","t"]
+#
+# print("".join(["q","w","e","r","t"]))
+# print("-".join(["q","w","e","r","t"]))
+# print(" ".join(["q","w","e","r","t"]))
+#
+# print("Whatever you put in here".join(["q","w","e","r","t"]))
+#
+aString = "Anything between quotes"
+#
+print( aString )
+
+theStsringCapitalzies = aString.capitalize()
+
+print(theStsringCapitalzies)
+
+print(aString)#notice how it hasn't changed
+
+aString = "My name is * and I have * cats and * dog"
+print( aString )
+
+arrayOfStrings = aString.split("*")
+print(arrayOfStrings)#this would be our pattern
+
+letSayUserSaidThis = "My name is Bob and I have 2 cats and 1 dog"
+#to get the name and number of each animal we can split again!
 
 
+print( letSayUserSaidThis.split(arrayOfStrings[0])[1].split()[0])
+print( letSayUserSaidThis.split(arrayOfStrings[0])[1].split())
+print( letSayUserSaidThis.split(arrayOfStrings[0])[1])
+print( letSayUserSaidThis.split(arrayOfStrings[0]))
+print( letSayUserSaidThis.split())
 
+numberOfCat = letSayUserSaidThis.split(arrayOfStrings[1])[1].split()[0]
+numberOfDogs = letSayUserSaidThis.split(arrayOfStrings[2])[1].split()[0]
 
-
-        
+#any list is [1,23,34,5], ['1','2','d']
+#a string is anything between quotes"asdfasdf"
+print(name)
+print(numberOfCat)
+print(numberOfDogs)

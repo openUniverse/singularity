@@ -1,3 +1,4 @@
+
 # def p(a, b):
 #     if b is 0:
 #         return a
@@ -36,9 +37,8 @@
 #         for item in items
 #             print(item)
 
-
-
-
-
-
-        
+def PercentOfTotal(aList):
+    sumOfElements = 0
+    for element in aList:
+        sumOfElements += element
+    return aList/sumOfElements #divides every element by the sum

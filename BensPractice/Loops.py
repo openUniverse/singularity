@@ -9,3 +9,8 @@ for element in range(5, 10):
 
 
 
+
+for element in [1,2,3,4,5]:
+    element * 5
+
+

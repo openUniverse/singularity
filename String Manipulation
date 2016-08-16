@@ -1,0 +1,45 @@
+# #JoinMethod
+#
+# print("".join(["e","x","a","m","p","l","e"]))
+# print("-".join(["e","x","a","m","p","l","e"]))
+# print(" ".join(["e","x","a","m","p","l","e"]))
+#
+# # only works to join a list of strings ie cannot use for a list unless it is converted to a string format
+# # a string is anything between quotes. for example:
+#
+# # list=[1, 2, 3]
+# # string= "1,2,3"
+# # listOfStrings= ["1","2""3"]
+#
+# egString= "blargh"
+#
+# print (egString)
+#
+# capString = egString.capitalize()
+#
+# print(capString)
+#
+# print(egString) #notice how it hasnt changed
+
+egString2 = "My name is * and I have * cats and* dog"
+
+#print(egString2)
+
+arrayOfStrings = egString2.split("*")
+print(arrayOfStrings)
+
+letsSayUserSaidThis = "My name is Bob and I have 2 cats and 1 dog"
+#to get the name and number of each animal we can split again
+
+
+print ( letsSayUserSaidThis.split(arrayOfStrings[0])[1].split()[0])
+print ( letsSayUserSaidThis.split(arrayOfStrings[0])[1].split())
+print ( letsSayUserSaidThis.split(arrayOfStrings[0])[1])
+print ( letsSayUserSaidThis.split(arrayOfStrings[0]))
+print ( letsSayUserSaidThis.split())
+# numberOfCat = letsSayUserSaidThis.split(arrayOfStrings[1])[1].split()[0]
+# numberOfDog = letsSayUserSaidThis.split(arrayOfStrings[2])[1].split()[0]
+
+#print(name)
+# print(numberOfCat)
+# print(numberOfDog)
